@@ -63,6 +63,7 @@ class BagScreen extends StatelessWidget {
                               cubit.insertNewBagItemInBag(
                                   bagTitle: title,
                                   itemName: itemTitleController.text);
+                              itemTitleController.text = '';
                             }
                           },
                         ),
